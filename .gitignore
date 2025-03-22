@@ -10,7 +10,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-data/archives/images*
+data/archive/images*
 dist/
 downloads/
 eggs/
@@ -170,6 +170,7 @@ cython_debug/
 
 # Ruff stuff:
 .ruff_cache/
-
+.DS_Store
 # PyPI configuration file
 .pypirc
+data/archive/images_001/images/00000001_000.png
