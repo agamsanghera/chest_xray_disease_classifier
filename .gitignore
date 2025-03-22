@@ -173,4 +173,7 @@ cython_debug/
 .DS_Store
 # PyPI configuration file
 .pypirc
-data/archive/images_001/images/00000001_000.png
+data/archive/images*
+data/archive/images_001/images/00000001_001.png
+data/archive/images_001/images/00000001_002.png
+.DS_Store
