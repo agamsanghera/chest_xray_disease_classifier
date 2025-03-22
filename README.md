@@ -4,7 +4,7 @@ This project is part of the 2025 [UBC Medicine Datathon](https://datascienceandh
 diseases given X-ray images from the [NIH Chest X-rays Dataset](https://www.kaggle.com/datasets/nih-chest-xrays/data/data?select=train_val_list.txt) on Kaggle.
 
 Our approach to this problem involved fine-tuning [CheXNet](https://github.com/arnoweng/CheXNet), a pre-trained CNN based on the popular DenseNet CNN model.
-We fine-tune our model over **five specific diseases** that are particularily difficult to identify, according to [this NIH report](https://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
+We fine-tune our model over **five specific diseases** that are particularily difficult to identify, according to [this NIH report](https://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf):
 
 - Nodules
 - Masses
