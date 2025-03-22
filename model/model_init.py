@@ -25,9 +25,7 @@ class XRayClassifier(nn.Module):
         x = self.densenet121(x)
         return x
     
-    
 # function to get state dict for the CheXNet Model
-# may need to change if passed 
 def get_chexnet_state(path='./model.pth.tar',map_to=device):
     '''
     Modify given CheXNet state dictionary to fit the modified architecture.
