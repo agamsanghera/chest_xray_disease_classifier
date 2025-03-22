@@ -27,6 +27,7 @@ dependencies:
   - imbalanced-learn
   - pytorch
   - seaborn
+  - torchvision
   - pip:
     - mglearn
     - spacymoji
