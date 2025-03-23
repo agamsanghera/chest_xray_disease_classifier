@@ -31,7 +31,7 @@ def get_chexnet_state(path='./model.pth.tar',map_to=device):
     Modify given CheXNet state dictionary to fit the modified architecture.
     Returns a state dict which can be passed to XRayClassifier model
     
-    NOTE: Set strict=False when passing to load_state_dict method.z
+    NOTE: Set strict=False when passing to load_state_dict method.
     '''
     checkpoint = torch.load(path, map_location=map_to)
     substring = 'module.'
